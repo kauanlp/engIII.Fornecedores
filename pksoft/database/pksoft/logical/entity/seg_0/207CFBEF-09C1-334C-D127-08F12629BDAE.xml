@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="207CFBEF-09C1-334C-D127-08F12629BDAE" name="CONTATOS">
+<createdBy>pfreitas</createdBy>
+<createdTime>2021-10-21 22:25:04 UTC</createdTime>
+<ownerDesignName>pksoft</ownerDesignName>
+<engineerTo>
+<item key="3FE7ACCC-C991-9732-BC61-C20918947328" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>

@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="207CFBEF-09C1-334C-D127-08F12629BDAE" name="CONTATOS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="24B507C3-D25A-16A6-F550-22D5A3C47046" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="22114D7B-2990-C620-7F2C-2F162DFD677F" name="TELEFONES" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="24B507C3-D25A-16A6-F550-22D5A3C47046" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="35AA91B0-F001-5F90-F545-AD5384FF5D11" name="USUARIOS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="24B507C3-D25A-16A6-F550-22D5A3C47046" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="5B52C8B9-E942-AD07-A7F6-3A98D3E9A9F9" name="CNAES" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="24B507C3-D25A-16A6-F550-22D5A3C47046" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="68093E9E-520F-42A9-B463-8A951B03117C" name="PRODUTOS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="24B507C3-D25A-16A6-F550-22D5A3C47046" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="A060F1EA-EE27-8054-2A3E-1D2614D2F62F" name="OS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="24B507C3-D25A-16A6-F550-22D5A3C47046" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="CDBC018B-933C-34E6-9E41-73BDC406E33D" name="FORNECEDORES" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="24B507C3-D25A-16A6-F550-22D5A3C47046" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

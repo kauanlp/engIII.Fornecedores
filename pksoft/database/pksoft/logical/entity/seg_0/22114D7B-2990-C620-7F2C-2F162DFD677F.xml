@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="22114D7B-2990-C620-7F2C-2F162DFD677F" name="TELEFONES">
+<createdBy>pfreitas</createdBy>
+<createdTime>2021-10-21 22:24:50 UTC</createdTime>
+<ownerDesignName>pksoft</ownerDesignName>
+<engineerTo>
+<item key="3FE7ACCC-C991-9732-BC61-C20918947328" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tel_id" id="4D520D27-120F-6F40-8CEF-8E04FA49EB35">
+<createdBy>pfreitas</createdBy>
+<createdTime>2021-10-22 12:49:33 UTC</createdTime>
+<ownerDesignName>pksoft</ownerDesignName>
+<engineerTo>
+<item key="3FE7ACCC-C991-9732-BC61-C20918947328" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tel_ddi" id="01B96175-7AFC-505A-5D1D-20F5D9A1C04A">
+<createdBy>pfreitas</createdBy>
+<createdTime>2021-10-22 12:49:39 UTC</createdTime>
+<ownerDesignName>pksoft</ownerDesignName>
+<engineerTo>
+<item key="3FE7ACCC-C991-9732-BC61-C20918947328" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tel_ddd" id="A56DFAA0-EB8B-C8F2-7BAD-B2F22D1D1445">
+<createdBy>pfreitas</createdBy>
+<createdTime>2021-10-22 12:49:53 UTC</createdTime>
+<ownerDesignName>pksoft</ownerDesignName>
+<engineerTo>
+<item key="3FE7ACCC-C991-9732-BC61-C20918947328" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tel_numero" id="23DC41A4-5891-9C6C-69A2-41C9EDA16852">
+<createdBy>pfreitas</createdBy>
+<createdTime>2021-10-22 12:49:56 UTC</createdTime>
+<ownerDesignName>pksoft</ownerDesignName>
+<engineerTo>
+<item key="3FE7ACCC-C991-9732-BC61-C20918947328" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="795D49D4-1547-DBED-684E-B907F23F9FB3" name="TELEFONES PK">
+<createdBy>pfreitas</createdBy>
+<createdTime>2021-10-22 12:49:38 UTC</createdTime>
+<ownerDesignName>pksoft</ownerDesignName>
+<engineerTo>
+<item key="3FE7ACCC-C991-9732-BC61-C20918947328" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4D520D27-120F-6F40-8CEF-8E04FA49EB35</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

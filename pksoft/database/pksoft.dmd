@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="pksoft" id="CA564B77-C41C-1F96-28C2-7611014AA608" version="3.5">
+<createdBy>pfreitas</createdBy>
+<createdTime>2021-10-21 22:23:31 UTC</createdTime>
+<ownerDesignName>pksoft</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CA564B77-C41C-1F96-28C2-7611014AA608</designId>
+</OSDM_Design>

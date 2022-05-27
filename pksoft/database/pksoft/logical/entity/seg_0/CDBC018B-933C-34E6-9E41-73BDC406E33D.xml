@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CDBC018B-933C-34E6-9E41-73BDC406E33D" name="FORNECEDORES">
+<createdBy>pfreitas</createdBy>
+<createdTime>2021-10-21 22:24:23 UTC</createdTime>
+<ownerDesignName>pksoft</ownerDesignName>
+<engineerTo>
+<item key="3FE7ACCC-C991-9732-BC61-C20918947328" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="for_id" id="E0C7C98B-0D14-34AC-3EC3-2C4304E03CAC">
+<createdBy>pfreitas</createdBy>
+<createdTime>2021-10-21 22:27:28 UTC</createdTime>
+<ownerDesignName>pksoft</ownerDesignName>
+<engineerTo>
+<item key="3FE7ACCC-C991-9732-BC61-C20918947328" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="for_cnpj" id="F2492D4E-FB95-E889-0793-0F79A56B6FA8">
+<createdBy>pfreitas</createdBy>
+<createdTime>2021-10-21 22:28:41 UTC</createdTime>
+<ownerDesignName>pksoft</ownerDesignName>
+<engineerTo>
+<item key="3FE7ACCC-C991-9732-BC61-C20918947328" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="for_rz_social" id="03C3A764-8E40-4C47-7E61-2B49A6D4E5EF">
+<createdBy>pfreitas</createdBy>
+<createdTime>2021-10-21 22:28:04 UTC</createdTime>
+<ownerDesignName>pksoft</ownerDesignName>
+<engineerTo>
+<item key="3FE7ACCC-C991-9732-BC61-C20918947328" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="for_nm_fantasia" id="9F0902BB-FD27-04DF-C4A1-BDA8819FA98C">
+<createdBy>pfreitas</createdBy>
+<createdTime>2021-10-21 22:28:49 UTC</createdTime>
+<ownerDesignName>pksoft</ownerDesignName>
+<engineerTo>
+<item key="3FE7ACCC-C991-9732-BC61-C20918947328" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="for_insc_est" id="8AD08554-8B28-D1B2-664D-3B620FA8C710">
+<createdBy>pfreitas</createdBy>
+<createdTime>2021-10-21 22:28:59 UTC</createdTime>
+<ownerDesignName>pksoft</ownerDesignName>
+<engineerTo>
+<item key="3FE7ACCC-C991-9732-BC61-C20918947328" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="for_insc_mun" id="6069EEB2-54C0-7B01-9DBC-FF8987164080">
+<createdBy>pfreitas</createdBy>
+<createdTime>2021-10-21 22:29:22 UTC</createdTime>
+<ownerDesignName>pksoft</ownerDesignName>
+<engineerTo>
+<item key="3FE7ACCC-C991-9732-BC61-C20918947328" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="for_status" id="1C0D990F-5F6C-95B6-3547-2E31744A8C67">
+<createdBy>pfreitas</createdBy>
+<createdTime>2021-10-22 12:48:17 UTC</createdTime>
+<ownerDesignName>pksoft</ownerDesignName>
+<engineerTo>
+<item key="3FE7ACCC-C991-9732-BC61-C20918947328" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="for_dt_cadastro" id="2D88BF23-0B1F-B826-BE10-B2031AAE113C">
+<createdBy>pfreitas</createdBy>
+<createdTime>2021-10-22 12:49:03 UTC</createdTime>
+<ownerDesignName>pksoft</ownerDesignName>
+<engineerTo>
+<item key="3FE7ACCC-C991-9732-BC61-C20918947328" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D774AA4F-1EAF-34CB-F92F-1AA2A0524C25" name="FORNECEDORES PK">
+<createdBy>pfreitas</createdBy>
+<createdTime>2021-10-21 22:27:55 UTC</createdTime>
+<ownerDesignName>pksoft</ownerDesignName>
+<engineerTo>
+<item key="3FE7ACCC-C991-9732-BC61-C20918947328" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E0C7C98B-0D14-34AC-3EC3-2C4304E03CAC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
